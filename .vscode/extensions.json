@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"bradlc.vscode-tailwindcss",
+		"esbenp.prettier-vscode",
+		"lightyen.tailwindcss-intellisense-twin",
+		"meganrogge.template-string-converter",
+		"usernamehw.errorlens",
+		"heybourn.headwind",
+		"formulahendry.auto-rename-tag"
+	]
+}

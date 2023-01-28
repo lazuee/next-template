@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "NodeNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "strict": true,
+    "alwaysStrict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "composite": true,
+    "incremental": true,
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "noEmitOnError": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnusedLabels": true,
+    "allowUnreachableCode": false,
+    "outDir": "./out",
+    "newLine": "lf",
+    "baseUrl": ".",
+    "paths": {
+      "#/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "plugins": [
+    {
+      "name": "next"
+    }
+  ],
+  "include": [
+    "next-env.d.ts",
+    "environment.d.ts",
+    "global.d.ts",
+    "twin.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "./node_modules",
+    "./out"
+  ]
+}
