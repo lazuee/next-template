@@ -1,14 +1,11 @@
-const isProd = process.env.NODE_ENV !== "development";
+const isDev = process.env.NODE_ENV === "development";
 
 interface ENV {
-	url: `https://${string}`;
+	isDev: boolean;
 }
 
 const env: ENV = {
-	url:
-		isProd && `${process.env.NEXT_PUBLIC_URL}`.startsWith("https")
-			? process.env.NEXT_PUBLIC_URL
-			: "https://localhost:3000",
+	isDev
 };
 
 export default env;
