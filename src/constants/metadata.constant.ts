@@ -7,7 +7,6 @@ interface Author {
 
 interface Metadata {
 	author: Author;
-	url: string;
 	banner: string;
 	description: string;
 	title: string;
