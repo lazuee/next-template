@@ -1,5 +1,3 @@
-import env from "./env.constant";
-
 interface Author {
 	firstName: string;
 	lastName: string;
@@ -22,7 +20,6 @@ const metadata: Metadata = {
 		username: "lazuee",
 		gender: "male",
 	},
-	url: env.url,
 	banner: "/img/banner.png",
 	description: "NextJS Template for creating websites",
 	title: "NextJS",
